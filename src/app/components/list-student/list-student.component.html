@@ -1,0 +1,25 @@
+<h3>Students List</h3>
+
+<table class="table table-striped text-center">
+    <thead>
+        <tr>
+            <th class="border border-2" scope="col">#</th>
+            <th class="border border-2" scope="col">Name</th>
+            <th class="border border-2" scope="col">Gender</th>
+            <th class="border border-2" scope="col">E-mail</th>
+            <th class="border border-2" scope="col">Edit</th>
+            <th class="border border-2" scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of studentData">
+            <th scope="row">{{item.id}}</th>
+            <td>{{item.name}}</td>
+            <td>{{item.gender}}</td>
+            <td>{{item.email}}</td>
+            <td><a routerLink="/Edit/{{item.id}}"><button  class="btn btn-warning"><i class="fa-solid fa-pen-to-square me-2"></i>Edit</button></a></td>
+            <td><button (click)="deleteStudent(item.id)" class="btn btn-danger"><i class="fa-solid fa-trash me-2"></i>Delete</button></td>
+        </tr>
+
+    </tbody>
+</table>

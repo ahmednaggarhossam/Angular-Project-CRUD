@@ -1,0 +1,67 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Hossam Alnaggar",
+      "gender": "male",
+      "email": "hossam@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "Shady Hossam",
+      "gender": "male",
+      "email": "shady@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "Yara Hossam",
+      "gender": "female",
+      "email": "yara@gmail.com"
+    },
+    {
+      "id": "6",
+      "name": "Muhammed Hossam",
+      "gender": "male",
+      "email": "mohossam@gmail.com"
+    },
+    {
+      "id": "d54c",
+      "name": "Yasmine Gehad",
+      "gender": "female",
+      "email": "yasmine.gehad83@gmail.com"
+    },
+    {
+      "id": "0ca7",
+      "name": "Asmaa",
+      "gender": "female",
+      "email": "info@ecic.co"
+    },
+    {
+      "name": "Muhmmed IT",
+      "gender": "male",
+      "email": "talbmasr2@gmail.com",
+      "id": "1ba2"
+    },
+    {
+      "id": "f1aa",
+      "name": "Youssif IT",
+      "gender": "male",
+      "email": "talbmasr99@gmail.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
